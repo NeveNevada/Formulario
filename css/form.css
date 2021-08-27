@@ -1,3 +1,14 @@
 h2{
     text-align: center;
 }
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: lightgrey;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 10px;
+}
