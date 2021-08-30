@@ -2,6 +2,21 @@ h2{
     text-align: center;
 }
 
+h3{
+    text-align: center;
+}
+
+/*---------------------------------B O T Ã O--------------------------------*/
+
+#botaozinho{
+    margin-left: 370px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*--------------------------------------------------------------------------*/
+
 body{
     margin-left: 200px;
     margin-right: 200px;
@@ -28,3 +43,5 @@ body{
     background: linear-gradient(45deg, #716F81, #B97A95, #F6AE99, #F2E1C1);
     background-size: 300% 300%;
 }
+
+/*--------------------------------------------------------------------------*/
