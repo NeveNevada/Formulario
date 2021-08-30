@@ -14,7 +14,6 @@
         crossorigin="anonymous"></script>
 
         <link href="css/form.css" rel="stylesheet">
-        <script src="../Formulario/js/form.js"></script>
 
     <title>Cadastro</title>
 </head>
@@ -64,7 +63,7 @@
                 <br>
                 <div class="col-md-4">
                     <label for="number">CPF</label>
-                    <input type="number" class="form-control" nome="cpf" placeholder="Digite seu CPF" id="cpf" required>
+                    <input type="number" class="form-control" nome="cpf" placeholder="Digite seu CPF" id="cpf" maxlength="14" onkeyup="mascaraCPF()" required>
                 </div>
                 <br>
                 <div class="col-md-4">
@@ -83,6 +82,11 @@
                 </div>
                 <br>
                 <div class="col-md-12">
+                    <label for="text">CEP</label>
+                    <input type="text" class="form-control" name="cep" id="cep" placeholder="Digite seu CEP" maxlength="9" onkeyup="mascaraCEP()" required>
+                </div>
+                <br>
+                <div class="col-md-12">
                     <label for="text">Endereço</label>
                     <input type="text" class="form-control" nome="endereço" placeholder="Digite seu endereço" id="endereço" required>
                 </div>
@@ -98,10 +102,11 @@
                 </div>
                 <br>
                 <div class="col-12">
-                    <button class="btn btn-secondary" type="submit">Cadastrar</button>
+                    <button class="btn btn-secondary" type="submit" onclick="entrar()">Cadastrar</button>
                 </div>
             </form>  
         </div>
         
+        <script src="../Formulario/js/form.js"></script>
     </body>
 </html>
