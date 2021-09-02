@@ -16,26 +16,3 @@ function entrar(){
         alert("As senhas não correspondem")
     }
 } 
-
-function mascaraCPF(){
-
-    var cpf = document.getElementById('cpf').value;
-
-    if(cpf.value.lenght == 3){
-        cpf.value += "."
-    } else if(cpf.value.lenght == 7){
-        cpf.value += "."
-    } else if(cpf.valuel.lenght == 11){
-        cpf.value += "-"
-    }
-}
-
-function mascaraCEP(){
-
-    var cep = document.getElementById('cep').value;
-
-    if(cep.value.lenght == 5){
-        cep.value += "-"
-    }
-}
-
